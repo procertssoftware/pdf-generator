@@ -190,8 +190,10 @@
         self.landscape = NO;
         
         // Default 1/4" margins
-        self.topAndBottomMarginSize = 0.25f * 72.0f;
-        self.leftAndRightMarginSize = 0.25f * 72.0f;
+        //self.topAndBottomMarginSize = 0.25f * 72.0f;
+        //self.leftAndRightMarginSize = 0.25f * 72.0f;
+        self.topAndBottomMarginSize = 0f * 0f;
+        self.leftAndRightMarginSize = 0f * 0f;
     }
     return self;
 }
@@ -201,9 +203,11 @@
         self.pageSize = pageSize;
         self.landscape = NO;
         
-        // Default 1/4" margins
-        self.topAndBottomMarginSize = 0.25f * 72.0f;
-        self.leftAndRightMarginSize = 0.25f * 72.0f;
+         // Default 1/4" margins
+        //self.topAndBottomMarginSize = 0.25f * 72.0f;
+        //self.leftAndRightMarginSize = 0.25f * 72.0f;
+        self.topAndBottomMarginSize = 0f * 0f;
+        self.leftAndRightMarginSize = 0f * 0f;
     }
     return self;
 }
@@ -213,9 +217,11 @@
         self.pageSize = pageSize;
         self.landscape = landscape;
         
-        // Default 1/4" margins
-        self.topAndBottomMarginSize = 0.25f * 72.0f;
-        self.leftAndRightMarginSize = 0.25f * 72.0f;
+         // Default 1/4" margins
+        //self.topAndBottomMarginSize = 0.25f * 72.0f;
+        //self.leftAndRightMarginSize = 0.25f * 72.0f;
+        self.topAndBottomMarginSize = 0f * 0f;
+        self.leftAndRightMarginSize = 0f * 0f;
     }
     return self;
 }
@@ -226,9 +232,11 @@
         self.customPageSize = pageSize;
         self.landscape = NO;
         
-        // Default 1/4" margins
-        self.topAndBottomMarginSize = 0.25f * 72.0f;
-        self.leftAndRightMarginSize = 0.25f * 72.0f;
+         // Default 1/4" margins
+        //self.topAndBottomMarginSize = 0.25f * 72.0f;
+        //self.leftAndRightMarginSize = 0.25f * 72.0f;
+        self.topAndBottomMarginSize = 0f * 0f;
+        self.leftAndRightMarginSize = 0f * 0f;
     }
     return self;
 }
